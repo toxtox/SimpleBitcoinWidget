@@ -84,6 +84,9 @@
         <item>VND</item>
         <item>ZAR</item>
     </string-array>
+    <string-array name="currencies_freiexchange">
+        <item>BTC</item>
+    </string-array>
     <string-array name="currencies_hitbtc">
         <item>USD</item>
         <item>EUR</item>

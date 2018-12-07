@@ -21,10 +21,10 @@ public enum Coin {
             return new int[]{R.drawable.ic_btc, R.drawable.ic_btc_bw, R.drawable.ic_btc_dark, R.drawable.ic_btc_dark_bw};
         }
     },
-    ETH("Ethereum", R.drawable.ic_eth_color) {
+    PHS("Philosopherstone", R.drawable.ic_phs_color) {
         @Override
         public int[] getDrawables() {
-            return new int[] {R.drawable.ic_eth_color, R.drawable.ic_eth, R.drawable.ic_eth_color, R.drawable.ic_eth};
+            return new int[] {R.drawable.ic_phs_color, R.drawable.ic_phs, R.drawable.ic_phs_color, R.drawable.ic_phs};
         }
     },
     BCH("Bitcoin Cash", R.drawable.ic_bch) {

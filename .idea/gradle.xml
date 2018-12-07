@@ -12,8 +12,8 @@
             <option value="$PROJECT_DIR$/bitcoin" />
             <option value="$PROJECT_DIR$/bitcoincash" />
             <option value="$PROJECT_DIR$/cryptowidget" />
-            <option value="$PROJECT_DIR$/ethereum" />
             <option value="$PROJECT_DIR$/litecoin" />
+            <option value="$PROJECT_DIR$/philosopherstone" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

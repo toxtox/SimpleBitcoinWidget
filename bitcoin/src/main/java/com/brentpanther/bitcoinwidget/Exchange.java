@@ -325,6 +325,15 @@ enum Exchange {
             return obj.getJSONObject("rate").getString("last");
         }
     },
+    FREIEXCHANGE("Freiexchange") {
+        @Override
+        public String getValue(String coin, String currency) throws Exception {
+            JSONObject obj = getJSONObject("https://freiexchange.com/api/public/PHS");
+            return obj.getJSONObject("public").getString("last");
+            /*return obj.getString("last");*/
+            /*return obj.getJSONObject("Data").getString("LastPrice");*/
+        }
+    },
     ETHEXINDIA("EthexIndia") {
         @Override
         public String getValue(String coin, String currency) throws Exception {

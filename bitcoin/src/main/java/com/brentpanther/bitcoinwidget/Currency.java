@@ -42,7 +42,9 @@ public enum Currency {
     UAH("₴#,###.00"),
     VEF("Bs#,####.00"),
     VND("₫#,###.00"),
-    ZAR("R#,###.00");
+    ZAR("R#,###.00"),
+    BTC("#,###.000000000 btc");
+
 
     private static final List<String> ALL_CURRENCY_NAMES;
     private static final Comparator<String> COMPARATOR;

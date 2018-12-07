@@ -1,8 +1,8 @@
 package com.brentpanther.cryptowidget;
 
 public enum Currency {
-	
-	USD("$#,###.00"),
+
+    USD("$#,###.00"),
 	AUD("$#,###.00"),
     BRL("R$#,###.00"),
 	CAD("$#,###.00"),
@@ -38,7 +38,8 @@ public enum Currency {
     UAH("₴#,###.00"),
     VEF("Bs#,####.00"),
     VND("₫#,###.00"),
-    ZAR("R#,###.00");
+    ZAR("R#,###.00"),
+    BTC("#0.00000000 btc");
 
 	String format;
 
